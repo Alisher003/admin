@@ -493,6 +493,10 @@ nav .list {
   cursor: pointer;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .item-7 {
   grid-column: 1 / 6;
   height: 1188px;

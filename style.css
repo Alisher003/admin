@@ -924,3 +924,54 @@ footer .right ul a {
   line-height: 19px;
   color: #8898aa;
 }
+
+
+.chart-btns {
+  display: flex;
+  gap: 16px;
+
+}
+
+.chartbar {
+  flex: 1;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 32px rgba(136, 152, 170, 0.15);
+  border-radius: 6px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.btn-blue {
+  padding: 9px 16px;
+  background: #5E72E4;
+  box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-white {
+  padding: 9px 16px;
+  cursor: pointer;
+  color: #5E72E4;
+  box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  border: 1px solid transparent;
+  color: #5E72E4;
+}
+
+.btn-white:hover {
+  opacity: 0.7;
+  color: #333;
+}
+
+.btn-blue:hover {
+  opacity: 0.7;
+  color: #333;
+}
